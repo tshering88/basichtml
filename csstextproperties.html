@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<head>
+    <title>CSS Text Properties Tutorial</title>
+    <style>
+        body {
+            font-family: 'Times New Roman', Times, serif;
+            margin: 0;
+            padding: 0;
+        }
+        h1{
+            text-align: center;
+            background-color:rgb(95, 94, 83);
+            color: white;
+            padding: 8px;
+            margin: 8px;
+        } 
+        nav{
+            background-color:skyblue;
+            color: white;
+            text-align: center;
+            margin: 1px;
+            padding: 10px;
+        }
+        a{
+            color: rgb(0, 2, 5);
+            text-decoration: solid;
+            padding: 10px;
+        }
+        .container {
+            border:1px solid #10100f;  
+            padding: 8px;
+            margin: 8px;
+            width: 90%;
+            display: flex column;
+     
+        }         
+    </style>
+</head>
+<body>
+    <h1>CSS Text Properties Tutorial</h1>
+    <nav>
+        <a href="#introduction">Introduction</a>
+        <a href="#textcolor">Text Color</a>
+        <a href="#alignment">Text Alignment</a>
+        <a href="#textdecoration">Text Decoration</a>
+        <a href="#texttransformation">Text Transformation</a>
+        <a href="#textspacing">Text Spacing</a>
+        <a href="#textshadow">Text Shadow</a>
+    </nav>
+    <main>
+       <section>
+        <div class="container" id="#introduction">
+        <h2>Introducation to CSS Text Properties</h2>
+        <p>CSS provides several properties for styaling and formatting text. This tutorial covers the most commonly used text properties including color, alignment,decoration, transformation, spacing, and shadow effects.</p>
+    </div>
+    </section>
+    <section>
+        <div class="container" id="textcolor">
+            <h2>Text Color</h2>
+            <p>The color property is used to set the color of text</p>
+            <p style="color:#ff6600">This text is colored using the hex code #ff6600</p>
+            <p>CSS code: color: #ff6600</p>
+        </div>
+    </section>
+    <section>
+        <div class="container" id="alignment">
+            <h2>Text Alignment</h2>
+            <p>The text-align property is used to set the horizontal alignment of text</p>
+            <p>This text is aligned to the left (default)</p>
+            <p>CSS code: text-align: left;</p>
+        </div>
+    </section>
+    <section>
+        <div class="container" id="textdecoration">
+            <h2>Text Decoration</h2>
+            <p>The text-decoration property is used to add or remove decorations from text</p>
+            <p style="text-decoration: underline;">This text has an underline.</p>
+            <p>CSS code: text-decoration: underline;</p>
+            <p style="text-decoration: overline;">This text has an overline</p>
+            <p>CSS code: text-decoration: overline;</p>
+            <p style="text-decoration: line-through;">This text has a line through it.</p>
+            <p>CSS code: text-decoration: line-through;</p>
+            <P>Links typically have an underline by default, but it can be removed:</P>
+            <p style="text-decoration: none;">This link has no underline</p>
+            <p>CSS code: text-decoration: none;</p>
+        </div>
+    </section>
+    <section>
+        <div class="container" id="texttransformation">
+            <h2>Text Transformation</h2>
+            <p>The text-transform property is used to change the capitalization of text.</p>
+            <p style="text-transform: uppercase;">This text is transformed to uppercase</p>
+            <p>CSS code: text-transform: uppercase;</p>
+            <p style="text-transform: lowercase;">This text is transformed to lowercase</p>
+            <p>CSS code: text:transform: lowercase;</p>
+            <p style="text-transform: capitalize;">This text is transformed to capitalize each word</p>
+            <p>CSS code: text-transform: capitalize;</p>
+        </div>
+    </section>
+    <section>
+        <div class="container" id="textspacing">
+            <h2>Text Spacing</h2>
+            <p>CSS provides properties to control the spacing between letters, words, and lines.</p>
+            <p style="letter-spacing: 2px; word-spacing: 5px; line-height: 2;">This paragraph demonstrates letter spacing, word spacing, and line height. Notice how the letters have more space between them, the words are further apart, and there's more vertical space between lines.</p>
+            <p>CSS code</p>
+            <p>Letter-spacing: 2px</p>
+            <p>Word-spacing: 5px</p>
+            <p>Line-height: 2;</p>
+        </div>
+    </section>
+    <section>
+        <div class="container" id="textshadow">
+            <h2>Text Shadow</h2>
+            <p>The text-shadow property adds shadow effects to text.</p>
+            <p style="text-shadow: 2px 2px 4px #888;">This text has a basic shadow effect.</p>
+            <p>CSS code: text-shadow:2px 2px 4px #888;</p>
+            <p style="text-shadow: 0 0 5px #ff6600, 0 0 10px #ff6600">This text has a glow effect</p>
+            <p>CSS code: text-shadow: 0 0 5px #ff6600, 0 0 10px #ff6600</p>
+        </div>
+    </section> 
+</main>
+</body>
+</html>

@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to My Simple Website</title>
+    <style>
+        body {
+          font-family: Arial, sans-serif;
+          max-width: 800px;
+          margin: 0 auto;
+          padding: 20px;
+          line-height: 1.6;
+        }
+        table {
+          width: 100%;
+          border-collapse: collapse;
+          margin-bottom: 20px;
+        }
+        table,
+        th,
+        td {
+          border: 2px solid #1f0205;
+          padding: 8px;
+        }
+        form {
+          width: 100%;
+          background-color: #88efaf;
+          padding: 20px;
+          border-radius: 5px;
+        }
+        input,
+        textarea {
+          
+          width: 96%;
+          padding: 10px;
+          margin-bottom: 10px;
+        }
+        button {
+          width: 98%;
+          padding: 10px;
+          margin-bottom: 10px;
+        }
+        .list-container {
+          display: flex;
+          justify-content: space-between;
+        }
+        .list-container div {
+          width: 45%;
+        }
+      </style>
+</head>
+<body>
+    <h1>Welcome to My Simple Website</h1>
+    
+    <h2>About Our Services</h2>
+    <div class="list-container" style="background: #f7071f;">
+      <section style="background: #57ed46;">
+    <h3 style="background: #39b8eb;">Our Services</h3>
+  
+      <ul>
+        <li>Web Design</li>
+        <li>Graphic Design</li>
+        <li>Digital Marketing</li>
+        <li>Content Creation</li>
+    </ul>
+  </section>
+
+  <section style="background: #3387ed;">
+    <h3>Service Workflow</h3>
+    <ol>
+        <li>Initial Consultation</li>
+        <li>Project Planning</li>
+        <li>Design Development</li>
+        <li>Client Review</li>
+        <li>Final Delivery</li>
+    </ol>
+  </section>
+
+    </div>
+    <h2>Our Pricing</h2>
+    <table>
+        <tr>
+            <th>Service</th>
+            <th>Basic</th>
+            <th>Premium</th>
+        </tr>
+        <tr>
+            <td>Web Design</td>
+            <td>$299</td>
+            <td>$599</td>
+        </tr>
+        <tr>
+            <td>Graphic Design</td>
+            <td>$199</td>
+            <td>$399</td>
+        </tr>
+        <tr>
+            <td>Digital Marketing</td>
+            <td>$249</td>
+            <td>$499</td>
+        </tr>
+    </table>
+    <h2>Contact Us</h2>
+    <form>
+    <label for="name">Name</label>
+      <input type="text" id= "name" name="name" required />
+
+      <label for="email">Email</label>
+<input type="email" id="email" name="email" required/>
+      </select> 
+      <label for="message">Message</label>
+      <textarea rows="10" type="textarea" id="message" name="message"></textarea>
+        <button type="submit">Send Message</button>
+  </form>
+</body>
+</html>
